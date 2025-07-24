@@ -87,3 +87,45 @@
 }
 
 /* nav bar dane*/
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 150px auto;
+  align-items: center;
+  max-width: 1140px;
+}
+.text-part h1{
+  font-size: 65px;
+  font-weight: bold;
+  font-family: "Noto Serif";
+  line-height: 40px;
+}
+.header-top span{
+  color: #E95A08;
+}
+.header-down {
+  color: #E95A08;
+}
+.text-part p{
+  color: #0000007c;
+  font-family: inter;
+}
+
+@media only screen and (max-width: 576px) {
+ .banner-container{
+   display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  justify-content: center; 
+  margin: 0 auto; 
+}
+.img-part{
+  width: 100%;
+  margin-top: -400px;
+}
+.text-part{
+  width: 100%;
+  margin-top: 700px;
+  line-height: 30px;
+}
+}
