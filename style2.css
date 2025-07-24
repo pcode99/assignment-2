@@ -129,3 +129,83 @@
   line-height: 30px;
 }
 }
+
+/*completed hero banner saction*/
+
+
+.ourplants{
+  max-width: 1140px;
+  text-align: center;
+  margin: 0 auto;
+}
+.ourplants h1{
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 50px;
+
+}
+
+.ourplants h1 span{
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 50px;
+  color:#E95A08 ;
+  
+}
+
+
+.ourplants p {
+  font-family: inter;
+  font-weight: normal;
+  font-size: 20px;
+  color:#0000007c;
+  
+}
+
+
+
+/*start card */
+.tree-card{
+  display: grid;
+  grid-template-columns: repeat(4,4fr);
+  gap: 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.tob{
+  text-align: center;
+}
+
+.tob h2{
+  font-family: inter;
+  color: #111111;
+  font-size: 22px;
+  font-weight: 400;
+}
+.tob h1{
+  font-family: inter;
+  color: #111111;
+  font-size: 22px;
+  font-weight: 700;
+}
+.tob button{
+  border: none;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #E95A08;
+  color: aliceblue;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 576px){
+  .tree-card{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  gap: 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+}
