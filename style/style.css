@@ -1,3 +1,40 @@
- @import "tailwindcss"
+ @import "tailwindcss";
 
+.container{
+    display: flex;
 
+    justify-content: space-between;
+    max-width: 1140px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 50px
+}
+.menu-list ul li{
+    margin-right: 20px;
+}
+.menu-list{
+    font-family: "Noto Serif";
+    font-weight: 500;
+    font-size: medium;
+    align-items: center;
+    display: flex;
+}
+#home{
+    font-weight: 900;
+
+   
+}
+#shop{
+    font-weight: 300;
+}
+
+#about-us{
+    font-weight: 300;
+}
+
+@media screen and(min-width:576px) {
+    .menu-list{
+    display: none;
+}
+}

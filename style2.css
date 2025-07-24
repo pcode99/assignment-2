@@ -1,0 +1,89 @@
+*{
+  list-style: none;
+}
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.nav-bar{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 1.2rem 3rem;
+
+}
+.nav-bar a {
+    list-style: none;
+    text-decoration: none;
+}
+.menu-item, .cart-icon{
+    list-style: none;
+    display: flex;
+
+}
+.home a{
+  font-weight: 700;
+  margin-right: .5rem;
+  font-size: 20px;
+  font-family: "Noto Serif";
+  color: #252432   ;
+}
+.shop a{
+  font-weight: 300;
+  margin-right: .5rem;
+  font-size: 20px;
+  font-family: "Noto Serif";
+  color:   #8987A1 ;
+}
+.about-us a{
+  font-weight: 300;
+  margin-right: .5rem;
+  font-size: 20px;
+  font-family: "Noto Serif";
+  color:   #8987A1 ;
+}
+.cart-icon1
+{
+  font-size: 20px;
+  color: #252432   
+}
+
+.cart-icon1 li a{
+  list-style: none;
+  margin-right: .5rem;
+  font-size: 20px;
+  color: #252432;
+  
+}
+.cart-icon a{
+  font-weight: 500;
+  margin-right: .5rem;
+  font-size: 20px;
+  font-family: "Noto Serif";
+  color: #252432   ;
+
+
+}
+
+@media only screen and (max-width: 576px) {
+ .menu-item{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+ .cart-icon{
+    display: none;
+  }
+}
+
+/* nav bar dane*/
