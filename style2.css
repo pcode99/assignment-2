@@ -262,3 +262,40 @@
 }
 
 /*ended my store*/
+.latest-deals{
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1140px;
+    padding-top: 20px;
+
+}
+.latest-deals h1{
+  font-family: "nato-sarif";
+  font-size: 45px;
+  font-weight: 700;
+}
+.latest-deals h1 span{
+  color: #E95A08;
+}
+.latest-deals p{
+  color: #252432b7;
+
+}
+
+.ofer-section{
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 800px;
+}
+.atach2{
+  width: 30%;
+  background-image: url(img/deal-ana.png );
+   background-repeat: no-repeat;
+}
+.atach1{
+  width: 60%;
+  background-image: url(img/deal-zabo.png);
+  background-repeat: no-repeat;
+}
