@@ -215,10 +215,10 @@
 
 .bach{
   position: absolute;
- 
- 
-  
+
 }
+
+
 .bach img{
   width: 200px;
 
@@ -226,6 +226,11 @@
   position: relative;
   top: 45px;
   left: 300%;
+}
+
+.bach img:hover{
+  transform: rotate(360deg);
+  transition: 2s;
 }
 
 
@@ -305,7 +310,7 @@
 
 }
 
-.ofer-section{
+/*.ofer-section{
   display: flex;
   max-width: 1140px;
   margin: 0 auto;
@@ -321,41 +326,19 @@
   background-image: url(img/deal-zabo.png);
   background-repeat: no-repeat;
 }
+*/
 
 
 
-/*this is footer container*/
-/*.f-container{
-    max-width: 1140px;
-    height: 55vh;
-    margin:0 auto ;
-    position: relative;
-    background-image: url(img/news-letter-bg.png);
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.offer-container{
+  display: flex;
+  gap: 20px;
 
 }
-.subsctibe label{
-  position: relative;
 
-}
-.subscribe input{
-  border: none;
-  height: 30px;
-  width: 400px%;
-  padding: 10px;
-}
-.subscribe button{
-  position: absolute;
-  border: none;
-  padding: 10px;
-  top: 0;
-  right: 0;
-  bottom: 0;
 
-}*/
+
 
 .subscribe-section {
       background: url(img/news-letter-bg.png) no-repeat center center/cover;
@@ -454,6 +437,11 @@
               text-align: center;
               justify-content: center;
        
+    }
+
+    .item{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
     }
 
      }
