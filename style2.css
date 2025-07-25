@@ -98,7 +98,7 @@
   font-size: 65px;
   font-weight: bold;
   font-family: "Noto Serif";
-  line-height: 40px;
+  line-height: 55px;
 }
 .header-top span{
   color: #E95A08;
@@ -214,9 +214,29 @@
 /* ended card saction */
 
 .bach{
-  width: 50px;
-  height: 50px;
+  position: absolute;
+ 
+ 
+  
+}
+.bach img{
+  width: 200px;
+
+  height: 200px;
   position: relative;
+  top: 45px;
+  left: 300%;
+}
+
+
+@media only screen and (max-width: 576px){
+
+  .bach{
+ display: none;
+ 
+ 
+  
+}
 }
 .flower-lover{
   display: flex;
@@ -305,26 +325,98 @@
 
 
 /*this is footer container*/
-.f-container{
+/*.f-container{
     max-width: 1140px;
-    height: 60vh;
+    height: 55vh;
     margin:0 auto ;
     position: relative;
     background-image: url(img/news-letter-bg.png);
-    text-align: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
     align-items: center;
 
 }
-.subsctibe{
-  position: absolute;
-  border: none;
-  padding: 20px;
-  top: 50%;
-  right: 50%;
+.subsctibe label{
+  position: relative;
 
 }
-.subsctibe input{
+.subscribe input{
   border: none;
-  height: 50px;
-  width: 80%;
+  height: 30px;
+  width: 400px%;
+  padding: 10px;
 }
+.subscribe button{
+  position: absolute;
+  border: none;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+}*/
+
+.subscribe-section {
+      background: url(img/news-letter-bg.png) no-repeat center center/cover;
+      height: 45vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+
+    .subscribe-section h1 {
+      color: white;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .subscribe-form {
+      display: flex;
+      max-width: 600px;
+      width: 90%;
+    }
+
+    .subscribe-form input[type="email"] {
+      flex: 1;
+      padding: 15px;
+      font-size: 1rem;
+      border: none;
+      outline: none;
+    }
+
+    .subscribe-form button {
+      padding: 15px 30px;
+      background-color:#E95A08;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      
+    }
+
+    .subscribe-form button:hover {
+      background-color: darkorange;
+    }
+
+    @media(max-width: 500px){
+      .subscribe-section h1 {
+        font-size: 1.8rem;
+      }
+
+      .subscribe-form {
+        flex-direction: column;
+      }
+
+      .subscribe-form button {
+        width: 100%;
+      }
+    }
+
+    /* ended footer banner */
